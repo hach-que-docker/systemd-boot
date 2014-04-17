@@ -11,6 +11,7 @@ To run this image:
       hachque/systemd-boot \
       /init
 
+What do these parameters do?
 
     -d = detach from tty
     --privileged = allow capabilities, dbus requires this to lower permissions
