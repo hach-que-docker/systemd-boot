@@ -1,3 +1,6 @@
+Usage
+----------
+
 To run this image:
 
 ```
@@ -17,3 +20,10 @@ docker run
 <image> = the name of the image
 /init = start systemd
 ```
+
+SSH / Login
+--------------
+
+**Username:** root
+
+**Password:** linux
