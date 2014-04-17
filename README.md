@@ -9,7 +9,8 @@ docker run
   --privileged \
   -P \
   -v /sys/fs/cgroup:/sys/fs/cgroup \
-  <image>
+  hachque/systemd-boot \
+  /init
 ```
 
 ```
@@ -17,7 +18,7 @@ docker run
 --privileged = allow capabilities, dbus requires this to lower permissions
 -P = map exposed ports over NAT
 -v = map cgroups, systemd requires this to function
-<image> = the name of the image
+hachque/systemd-boot = the name of this image
 /init = start systemd
 ```
 
